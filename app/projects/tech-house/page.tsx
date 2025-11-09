@@ -14,68 +14,92 @@ export default function Page() {
         {
             id: "1",
             src: '/projects/tech-house/app-web/cart.png',
-            alt: 'Giao diện giỏ hàng'
+            alt: 'Giao diện giỏ hàng',
+            width: 1440,
+            height: 900
         },
         {
             id: "2",
             src: '/projects/tech-house/app-web/checkout.png',
-            alt: 'Giao diện thanh toán'
+            alt: 'Giao diện thanh toán',
+            width: 1440,
+            height: 900
         },
         {
             id: "3",
             src: '/projects/tech-house/app-web/home.png',
-            alt: 'Giao diện trang chủ'
+            alt: 'Giao diện trang chủ',
+            width: 1440,
+            height: 900
         },
         {
             id: "4",
             src: '/projects/tech-house/app-web/login.png',
-            alt: 'Giao diện đăng nhập'
+            alt: 'Giao diện đăng nhập',
+            width: 1440,
+            height: 900
         },
         {
             id: "5",
             src: '/projects/tech-house/app-web/order-detail-guest.png',
-            alt: 'Giao diện chi tiết đơn hàng (khách)'
+            alt: 'Giao diện chi tiết đơn hàng (khách)',
+            width: 1440,
+            height: 900
         },
         {
             id: "6",
             src: '/projects/tech-house/app-web/order-detail-user.png',
-            alt: 'Giao diện chi tiết đơn hàng (người dùng)'
+            alt: 'Giao diện chi tiết đơn hàng (người dùng)',
+            width: 1440,
+            height: 900
         },
         {
             id: "7",
             src: '/projects/tech-house/app-web/product-detail-review.png',
-            alt: 'Giao diện chi tiết sản phẩm (phần đánh giá)'
+            alt: 'Giao diện chi tiết sản phẩm (phần đánh giá)',
+            width: 1440,
+            height: 900
         },
         {
             id: "8",
             src: '/projects/tech-house/app-web/product-detail-specs.png',
-            alt: 'Giao diện chi tiết sản phẩm (phần thông số)'
+            alt: 'Giao diện chi tiết sản phẩm (phần thông số)',
+            width: 1440,
+            height: 900
         },
         {
             id: "9",
             src: '/projects/tech-house/app-web/product-detail.png',
-            alt: 'Giao diện chi tiết sản phẩm'
+            alt: 'Giao diện chi tiết sản phẩm',
+            width: 1440,
+            height: 900
         },
         {
             id: "10",
             src: '/projects/tech-house/app-web/track-order.png',
-            alt: 'Giao diện theo dõi đơn hàng'
+            alt: 'Giao diện theo dõi đơn hàng',
+            width: 1440,
+            height: 900
         },
         {
             id: "11",
             src: '/projects/tech-house/app-web/user-address.png',
-            alt: 'Giao diện địa chỉ người dùng'
+            alt: 'Giao diện địa chỉ người dùng',
+            width: 1440,
+            height: 900
         },
         {
             id: "12",
             src: '/projects/tech-house/app-web/user-purchases.png',
-            alt: 'Giao diện lịch sử mua hàng'
+            alt: 'Giao diện lịch sử mua hàng',
+            width: 1440,
+            height: 900
         },
     ];
 
 
     return (
-        <div className="container m-auto space-y-10 text-gray-900 dark:text-gray-100">
+        <div className="container m-auto pt-32 md:pt-24 space-y-10 text-gray-900 dark:text-gray-100">
             <BreadCrumb items={breadcrumbItems} />
 
             {/* Container chính, căn giữa và giới hạn chiều rộng */}

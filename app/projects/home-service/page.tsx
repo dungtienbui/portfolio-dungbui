@@ -22,7 +22,8 @@ export default function Page(): React.ReactElement {
     ];
 
     return (
-        <div className="container m-auto space-y-10 text-gray-900 dark:text-gray-100">
+        <div className="container m-auto pt-32 md:pt-24 space-y-10 text-gray-900 dark:text-gray-100">
+
             <BreadCrumb items={breadcrumbItems} />
 
             {/* Container chính, căn giữa và giới hạn chiều rộng để dễ đọc */}
@@ -183,8 +184,8 @@ export default function Page(): React.ReactElement {
                     <Image
                         src={"/projects/home-service/implementation-architecture.png"}
                         alt={"Sơ đồ usecase của ứng dụng"}
-                        width={13692}
-                        height={8400}
+                        width={1600}
+                        height={982}
                         className="object-contain"
                     />
                 </div>
@@ -199,8 +200,8 @@ export default function Page(): React.ReactElement {
                     <Image
                         src={"/projects/home-service/use-case.png"}
                         alt={"Sơ đồ Use-Case của hệ thống"}
-                        width={5204}
-                        height={4124}
+                        width={1600}
+                        height={1268}
                         className="object-contain"
                     />
                 </div>

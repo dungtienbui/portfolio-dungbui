@@ -59,7 +59,7 @@ export default function Page(): React.ReactElement {
     ]
 
     return (
-        <div className="container m-auto space-y-10 text-gray-900 dark:text-gray-100">
+        <div className="container m-auto pt-32 md:pt-24 space-y-10 text-gray-900 dark:text-gray-100">
             <BreadCrumb items={breadcrumbItems} />
 
             {/* Container chính, căn giữa và giới hạn chiều rộng */}

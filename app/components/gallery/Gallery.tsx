@@ -8,6 +8,8 @@ interface ImageProps {
     id: string;
     src: string;
     alt: string;
+    width?: number;
+    height?: number;
 }
 
 interface GalleryProps {
@@ -23,7 +25,9 @@ const Gallery = ({
     const firstImage = images.length > 0 ? images[0] : {
         id: "1",
         src: "/no-image.png",
-        alt: "No image here!"
+        alt: "No image here!",
+        width: 1440,
+        height: 900
     };
 
     const [selectedImage, setSelectdImage] = useState(firstImage);
@@ -45,8 +49,8 @@ const Gallery = ({
                 <Image
                     src={selectedImage.src}
                     alt={selectedImage.alt}
-                    width={2880}
-                    height={1800}
+                    width={selectedImage.width ?? 1440}
+                    height={selectedImage.height ?? 900}
                     className='rounded-lg overflow-clip border-2 border-gray-200 dark:border-gray-400'
                 />
 

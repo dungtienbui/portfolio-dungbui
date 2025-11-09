@@ -12,7 +12,7 @@ export default function Page() {
     const totalProjects = [...myProjects, ...myOtherProjects];
 
     return (
-        <div className="container m-auto space-y-10 text-gray-900 dark:text-gray-100">
+        <div className="container m-auto pt-32 md:pt-24 space-y-10 text-gray-900 dark:text-gray-100">
             <BreadCrumb items={breadcrumbItems} />
             <h2 className="text-3xl font-bold text-center">
                 Bộ sư tập tất cả các dự án của <span className="text-blue-600 dark:text-blue-400">Dũng</span>

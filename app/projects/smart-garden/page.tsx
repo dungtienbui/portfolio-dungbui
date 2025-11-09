@@ -14,47 +14,63 @@ export default function Page() {
         {
             id: "3",
             src: '/projects/smart-garden/app-web/env-data.png',
-            alt: 'Giao diện dữ liệu môi trường'
+            alt: 'Giao diện dữ liệu môi trường',
+            width: 1440,
+            height: 900
         },
         {
             id: "5",
             src: '/projects/smart-garden/app-web/login.png',
-            alt: 'Trang đăng nhập'
+            alt: 'Trang đăng nhập',
+            width: 1440,
+            height: 900
         },
         {
             id: "2",
             src: '/projects/smart-garden/app-web/detail-env-data.png',
-            alt: 'Chi tiết dữ liệu môi trường'
+            alt: 'Chi tiết dữ liệu môi trường',
+            width: 1440,
+            height: 900
         },
         {
             id: "4",
             src: '/projects/smart-garden/app-web/log-op.png',
-            alt: 'Nhật ký hoạt động'
+            alt: 'Nhật ký hoạt động',
+            width: 1440,
+            height: 900
         },
         {
             id: "6",
             src: '/projects/smart-garden/app-web/outthreshold.png',
-            alt: 'Cảnh báo vượt ngưỡng'
+            alt: 'Cảnh báo vượt ngưỡng',
+            width: 1440,
+            height: 900
         },
         {
             id: "8",
             src: '/projects/smart-garden/app-web/set-threshold.png',
-            alt: 'Trang cài đặt ngưỡng'
+            alt: 'Trang cài đặt ngưỡng',
+            width: 1440,
+            height: 900
         },
         {
             id: "7",
             src: '/projects/smart-garden/app-web/set-threshold-popup.png',
-            alt: 'Popup cài đặt ngưỡng'
+            alt: 'Popup cài đặt ngưỡng',
+            width: 1440,
+            height: 900
         },
         {
             id: "1",
             src: '/projects/smart-garden/app-web/control-device.png',
-            alt: 'Giao diện điều khiển thiết bị'
+            alt: 'Giao diện điều khiển thiết bị',
+            width: 1440,
+            height: 900
         },
     ];
 
     return (
-        <div className="container m-auto space-y-10 text-gray-900 dark:text-gray-100">
+        <div className="container m-auto pt-32 md:pt-24 space-y-10 text-gray-900 dark:text-gray-100">
             <BreadCrumb items={breadcrumbItems} />
 
             {/* Container chính, căn giữa và giới hạn chiều rộng */}
@@ -155,8 +171,8 @@ export default function Page() {
                     <Image
                         src={"/projects/smart-garden/use-case.png"}
                         alt={"Sơ đồ Use-Case tổng quan của hệ thống Smart Garden"}
-                        width={800}
-                        height={1000}
+                        width={892}
+                        height={916}
                         className="object-contain"
                     />
                 </div>
@@ -166,8 +182,8 @@ export default function Page() {
                     <Image
                         src={"/projects/smart-garden/architecture.png"}
                         alt={"Sơ đồ Use-Case tổng quan của hệ thống Smart Garden"}
-                        width={1000}
-                        height={600}
+                        width={700}
+                        height={256}
                         className="object-contain"
                     />
                 </div>

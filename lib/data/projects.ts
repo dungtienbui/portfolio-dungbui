@@ -7,6 +7,8 @@ export const myProjects = [
         linkDemo: "https://tech-house-nextjs.vercel.app",
         linkPage: "/projects/tech-house",
         imageHref: "/projects/tech-house/wallpaper.png",
+        width: 1000,
+        height: 625
     },
     {
         title: "HomeService: Nền tảng Dịch vụ tại nhà (ĐATN)",
@@ -16,6 +18,8 @@ export const myProjects = [
         linkDemo: "https://youtu.be/xjj6rGnPYww",
         linkPage: "/projects/home-service",
         imageHref: "/projects/home-service/wallpaper.png",
+        width: 1000,
+        height: 636
     },
     {
         title: "MyFIT - Ứng dụng Theo dõi sức khoẻ cá nhân",
@@ -25,6 +29,8 @@ export const myProjects = [
         linkDemo: "https://youtu.be/XupRC6AAEog",
         linkPage: "/projects/my-fit-mobile",
         imageHref: "/projects/my-fit-mobile/wallpaper.png",
+        width: 1000,
+        height: 617
     },
     {
         title: "Online Shoe Shop Management System",
@@ -34,6 +40,8 @@ export const myProjects = [
         linkDemo: "https://www.youtube.com/watch?v=EaYfwPvVSvI",
         linkPage: "/projects/shoe-shop",
         imageHref: "/projects/shoe-shop/wallpaper.png",
+        width: 999,
+        height: 476
     },
     {
         title: "Khu Vườn Thông Minh (Smart Garden)",
@@ -43,6 +51,8 @@ export const myProjects = [
         linkDemo: null,
         linkPage: "/projects/smart-garden",
         imageHref: "/projects/smart-garden/wallpaper.png",
+        width: 1000,
+        height: 625
     },
     {
         title: "Hệ thống IoT Giám sát & Điều khiển Nông nghiệp",
@@ -52,6 +62,8 @@ export const myProjects = [
         linkDemo: "https://www.youtube.com/shorts/pjBm00mJtkI",
         linkPage: "/projects/iot-esp32-s3",
         imageHref: "/projects/iot-esp32/wallpaper.png",
+        width: 1000,
+        height: 564
     },
 
 
@@ -66,6 +78,8 @@ export const myOtherProjects = [
         linkDemo: "https://youtu.be/EVUcQtVqySo",
         linkPage: "/projects/intro-neo4j-oracle",
         imageHref: "/projects/intro-neo4j-oracle/wallpaper.png",
+        width: 1000,
+        height: 625
     },
     {
         title: "Học Swift/SwiftUI (100 Days)",
@@ -75,5 +89,7 @@ export const myOtherProjects = [
         linkDemo: null,
         linkPage: "/projects/learning-swift-swiftui",
         imageHref: "/projects/learning-swift-swiftui/wallpaper.png",
+        width: 1000,
+        height: 625
     },
 ];

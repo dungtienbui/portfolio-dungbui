@@ -11,7 +11,7 @@ export default function Page() {
 
 
     return (
-        <div className="container m-auto space-y-10 text-gray-900 dark:text-gray-100">
+        <div className="container m-auto pt-32 md:pt-24 space-y-10 text-gray-900 dark:text-gray-100">
             <BreadCrumb items={breadcrumbItems} />
 
             {/* Container chính, căn giữa và giới hạn chiều rộng để dễ đọc */}
@@ -67,7 +67,7 @@ export default function Page() {
                 {/* Bạn nên thay thế 'imageHref' trong myProjects và 'src' dưới đây bằng một hình ảnh thực tế */}
                 <div className="mb-12 rounded-lg shadow-sm overflow-clip border border-gray-200 dark:border-gray-700">
                     <Image
-                        src={"/projects/learning-swift-swiftui/wallpaper.png"}
+                        src={"/projects/learning-swift-swiftui/image-info.png"}
                         alt={"Giao diện học Swift/SwiftUI"}
                         width={1920}
                         height={1080}

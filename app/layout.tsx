@@ -20,11 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="vi" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.className}`}>
         <SpotlightEffect />
         <Providers>
           <Navbar />
-          <main className="pt-24">
+          <main className="">
             {children}
           </main>
           <Footer />

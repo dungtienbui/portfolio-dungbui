@@ -15,7 +15,7 @@ export const HeroTitle = () => {
             const eleCurrTop = ele.getBoundingClientRect().top;
 
             const windowHeight = window.innerHeight;
-            const boundary = windowHeight / 3;
+            const boundary = windowHeight / 4;
 
             if (eleCurrTop >= 0) {
                 const v = Math.max(boundary - eleCurrTop, 0) / boundary * 100;
@@ -42,7 +42,7 @@ export const HeroTitle = () => {
                 {
                     initial: { opacity: 0, y: -50 },
                     animate: { opacity: 1, y: 0 },
-                    transition: { duration: 0.8 },
+                    transition: { duration: 0.6 },
                 }
             }
             ref={ref}

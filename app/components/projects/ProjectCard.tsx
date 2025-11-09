@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ProjectCardMotionWrapper } from "./ProjectCardMotionWrapper";
 
-export const ProjectCard = ({ title, description, tech, linkGithub, linkDemo, linkPage, imageHref }: {
+interface ProjectCardProps {
     title: string;
     description: string;
     tech: string[];
@@ -11,7 +11,11 @@ export const ProjectCard = ({ title, description, tech, linkGithub, linkDemo, li
     linkDemo: string | null;
     linkPage: string;
     imageHref: string;
-}) => (
+    width?: number;
+    height?: number;
+}
+
+export const ProjectCard = ({ title, description, tech, linkGithub, linkDemo, linkPage, imageHref }: ProjectCardProps) => (
     <ProjectCardMotionWrapper>
         <div
             className={clsx(

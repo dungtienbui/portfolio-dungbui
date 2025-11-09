@@ -4,6 +4,10 @@
 
 /* app/globals.css (thêm vào @layer base) */
 @layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         background-color: #f8fafc;
         /* Màu nền light mode */
@@ -30,5 +34,74 @@
         background: radial-gradient(circle 100px at var(--mouse-x, -200px) var(--mouse-y, -200px),
                 rgba(173, 230, 237, 0.2),
                 transparent 90%);
+    }
+}
+
+@theme {
+
+    --animate-words-changing: words 20s infinite;
+
+    --animate-words-typing: cursor .8s infinite, typing 20s steps(14) infinite;
+
+    @keyframes cursor {
+        to {
+            border-left: 8px solid #ff7f5000;
+        }
+    }
+
+    @keyframes words {
+
+        0%,
+        20% {
+            content: "React";
+        }
+
+        21%,
+        40% {
+            content: "Next.js";
+        }
+
+        41%,
+        60% {
+            content: "React Native";
+        }
+
+        61%,
+        80% {
+            content: "Express.js";
+        }
+
+        81%,
+        100% {
+            content: "PHP";
+        }
+    }
+
+    @keyframes typing {
+
+        10%,
+        15%,
+        30%,
+        35%,
+        50%,
+        55%,
+        70%,
+        75%,
+        90%,
+        95% {
+            width: 0;
+        }
+
+        5%,
+        20%,
+        25%,
+        40%,
+        45%,
+        60%,
+        65%,
+        80%,
+        85% {
+            width: calc(100% + 8px);
+        }
     }
 }

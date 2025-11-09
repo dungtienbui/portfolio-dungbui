@@ -2,7 +2,7 @@ import { SkillCard } from "./SkillCard";
 import { SkillMotionWrapper } from "./SkillMotionWrapper";
 
 export const Skills = () => {
-    const frontendSkills = ["HTML5", "CSS", "JavaScript", "React", "Next.js", "React Native"];
+    const frontendSkills = ["HTML5", "CSS", "JavaScript", "React", "Next.js", "React Native (Mobile)"];
     const backendSkills = ["Node.js", "Express.js", "Java Spring Boot"];
     const databases = ["MySQL", "PostgreSQL", "MongoDB", "Neo4j"];
     const others = ["C++", "PHP", "Java", "Python", "Git", "Agile Scrum"];

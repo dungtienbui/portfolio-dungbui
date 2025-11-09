@@ -10,7 +10,7 @@ export default function Page() {
     ];
 
     return (
-        <div className="container m-auto space-y-10 text-gray-900 dark:text-gray-100">
+        <div className="container m-auto pt-32 md:pt-24 space-y-10 text-gray-900 dark:text-gray-100">
             <BreadCrumb items={breadcrumbItems} />
 
             {/* Container chính, căn giữa và giới hạn chiều rộng */}
@@ -125,7 +125,7 @@ export default function Page() {
                         src={"/projects/shoe-shop/use-case.png"}
                         alt={"Sơ đồ Use-Case của hệ thống"}
                         width={1600}
-                        height={900}
+                        height={1001}
                         className="object-contain"
                     />
                 </div>

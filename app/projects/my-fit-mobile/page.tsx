@@ -11,7 +11,7 @@ export default function Page() {
 
 
     return (
-        <div className="container m-auto space-y-10 text-gray-900 dark:text-gray-100">
+        <div className="container m-auto pt-32 md:pt-24 space-y-10 text-gray-900 dark:text-gray-100">
             <BreadCrumb items={breadcrumbItems} />
 
             {/* Container chính, căn giữa và giới hạn chiều rộng để dễ đọc */}
@@ -53,6 +53,16 @@ export default function Page() {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
                         allowFullScreen
                     ></iframe>
+                </div>
+
+                <p className="mb-6 text-lg font-bold text-gray-600 dark:text-gray-400">Poster cho ứng dụng</p>
+                <div className="mb-12 rounded-lg shadow-sm overflow-clip">
+                    <Image
+                        src={"/projects/my-fit-mobile/poster.png"}
+                        alt={"Thiết kế kiến trúc của hệ thống"}
+                        width={1587}
+                        height={2245}
+                    />
                 </div>
                 {/* --- Tính năng chính --- */}
                 <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-6">
@@ -109,8 +119,9 @@ export default function Page() {
                     <Image
                         src={"/projects/my-fit-mobile/architecture.png"}
                         alt={"Thiết kế kiến trúc của hệ thống"}
-                        width={1600}
-                        height={900} />
+                        width={1961}
+                        height={721}
+                    />
                 </div>
 
                 {/* --- Tài nguyên & Links --- */}

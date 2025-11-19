@@ -4,8 +4,8 @@ import { SkillMotionWrapper } from "./SkillMotionWrapper";
 export const Skills = () => {
     const frontendSkills = ["HTML5", "CSS", "JavaScript", "React", "Next.js", "React Native (Mobile)"];
     const backendSkills = ["Node.js", "Express.js", "Java Spring Boot"];
-    const databases = ["MySQL", "PostgreSQL", "MongoDB", "Neo4j"];
-    const others = ["C++", "PHP", "Java", "Python", "Git", "Agile Scrum"];
+    const databases = ["MySQL", "PostgreSQL", "MongoDB"];
+    const others = ["PHP", "Java", "C++", "Python", "Git", "Agile Scrum"];
 
     const skillsData = [
         {
